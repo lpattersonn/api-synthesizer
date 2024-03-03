@@ -104,8 +104,8 @@ const dataCall = () => {
   
   return (
     <div className="container primary mt-5">
-      <h1>M&L API Synthesizer</h1>
-      <p>JSON Array of objects API Synthesizer.</p>
+      <h1>M&L API Desynthesizer</h1>
+      <p>JSON Array of objects API desynthesizer.</p>
       <div className="card mt-4">
         <div className="card-body">
           <form onSubmit={(e) => {
