@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 import Papa from 'papaparse';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function App() {
   const [mercyAPI, setMercyAPI] = useState([]);
@@ -104,7 +104,7 @@ const dataCall = () => {
   
   return (
     <div className="container primary mt-5">
-      <h1>API Synthesizer</h1>
+      <h1>M&L API Synthesizer</h1>
       <p>JSON Array of objects API Synthesizer.</p>
       <div className="card mt-4">
         <div className="card-body">
